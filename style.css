@@ -1,0 +1,50 @@
+/* Set a light background and standard text styling */
+body {
+    background-color: #9dccf3;
+    color: #323131;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center and style the header */
+h2 {
+    text-align: center;
+    color: #02744b;
+}
+
+/* Style the Chat History Accordion */
+.gradio-accordion {
+    border: 2px solid #0c0c0c;
+    border-radius: 5px;
+    background-color: #e8f0fe;
+    padding: 10px;
+}
+
+/* Style chat bubbles in the Chatbot component */
+.gr-chatbot .chatbot-message {
+    background-color: #ffffff;
+    border: 1px solid #0e0e0e;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 4px 0;
+}
+
+/* Style the Send button */
+.gr-button {
+    background-color: #1a73e8;
+    color: rgb(10, 181, 193);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.gr-button:hover {
+    background-color: #1558b0;
+}
+
+/* Style the Textbox for user input */
+.gr-textbox {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 8px;
+}
